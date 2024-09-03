@@ -1,0 +1,30 @@
+:root {
+    --body-font: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+.hero {
+    background-image: url('../asset/images/sergey-pesterev-ijFuMdN_02E-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white
+}
+
+header {
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+}
+
+footer {
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #b0e57c, #56ab2f, #2e8b57, #006400);
+}
+
+.add-cart {
+    background: #56ab2f;
+    color: #fff;
+}
